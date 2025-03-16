@@ -1,0 +1,17 @@
+### NuxtJS template
+# Generated dirs
+dist
+.nuxt
+.nuxt-*
+.output
+.gen
+
+# Node dependencies
+node_modules
+
+# System files
+*.log
+
+# 忽略 IDE 設定檔
+.idea/
+
