@@ -1,0 +1,46 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
+  -webkit-tap-highlight-color: transparent;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+
+  font-family: "Montserrat";
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: local(''),
+    url('~/assets/fonts/montserrat/montserrat-v18-latin-regular.woff2') format('woff2');
+}
+
+section {
+border-bottom: 1px solid gray;
+ height: 93vh;
+ display: flex;
+ flex-direction: column;
+ align-item: center;
+ }
+ 
+ section.projects {
+ height: 150vh;
+ }
+
+:focus-visible {
+  outline: transparent !important;
+}
+:focus {
+  outline: transparent !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
